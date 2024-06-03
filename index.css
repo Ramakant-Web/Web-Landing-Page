@@ -2032,22 +2032,35 @@ html {
 
     
   
-    position: absolute;
+    /* position: absolute; */
     /* Adjusting width and height */
-    width: auto;
-    height: auto;
+    /* width: auto; */
+    /* height: auto; */
     /* Resetting left and top values */
-    left: auto;
-    top: auto;
+    /* left: auto; */
+    /* top: auto; */
     /* Other adjustments */
-    font-size: 12px;
+    /* font-size: 12px; */
 
 
-    img {
-      display: none;
-    }
     
 
   }
 
 }
+
+@media screen and (max-width: 768px){
+.auto-layout-horizontal {
+  /* position: absolute;
+  top: calc(50% - 13.2px);
+  left: calc(50% - 110.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 24px; */
+  flex-flow: column;
+}
+}
+
+/* need some more time to make responsive */

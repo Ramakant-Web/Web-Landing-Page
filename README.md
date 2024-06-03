@@ -4,6 +4,9 @@
 
   Made with Html and CSS
 
+
+  To run code locally just launch live server
+
   
 
   
